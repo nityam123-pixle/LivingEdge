@@ -42,7 +42,7 @@ const AboutComponents = () => {
                         whileInView={"onscreen"}
                         variants={desVariants}
                         className="px-12 tracking-wider uppercase text-gray-400 mt-3">
-                        World Award
+                        27 years of experience
                     </motion.p>
 
                     <motion.p
@@ -50,7 +50,7 @@ const AboutComponents = () => {
                         whileInView={"onscreen"}
                         variants={tagVariants}
                         className="px-12 pb-4 mt-4">
-                        With 10+ years of experience in the industry, we specialize in both residential and commercial interior design,
+                        With 27+ years of experience in the industry, we specialize in both residential and commercial interior design,
                         offering a full range of services from concept development to final installation.
                     </motion.p>
 
