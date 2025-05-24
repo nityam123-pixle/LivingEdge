@@ -41,7 +41,7 @@ const AboutComponents = () => {
                         initial="offscreen"
                         whileInView={"onscreen"}
                         variants={desVariants}
-                        className="px-12 tracking-wider uppercase text-gray-400 mt-3">
+                        className="px-12 text-2xl tracking-wider uppercase bg-gradient-to-r from-[#6D6975] to bg-gray-200 bg-clip-text text-transparent font-semibold mt-3">
                         27 years of experience
                     </motion.p>
 

@@ -1,4 +1,4 @@
-'use client';
+ 'use client';
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -7,8 +7,7 @@ import { Button } from '@/components/ui/button';
 
 const services = [
   { title: '2D & 3D Designing', description: 'Detailed floor plans and 3D visualizations for clear conceptualization.' },
-  { title: 'Key to Key', description: 'We handle every step—from design to final setup—for a stress-free experience.' },
-  { title: 'Turnkey Projects', description: 'End-to-end project delivery, ready for immediate use.' },
+  { title: 'Key to Key Turnkey Projects', description: 'End-to-end project delivery, ready for immediate use.' },
   { title: 'Interior Designing', description: 'Aesthetic and functional designs tailored to your lifestyle.' },
   { title: 'Modular Furniture', description: 'Space-saving, stylish, and customizable modular solutions.' },
   { title: 'Consultancy (B2B)', description: 'Expert advice for commercial and retail space planning.' },

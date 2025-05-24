@@ -13,12 +13,14 @@ const services = [
         description: "From concept to completion, we handle every detail. Our turnkey solutions deliver fully furnished, move-in-ready spaces that match your style and functionality needs.",
         icon: LayoutDashboard,
     },
+    // Need to change this.
     {
         id: 2,
         title: "Creative Furniture Design",
         description: "We create custom furniture that blends aesthetics with comfort. Our designs maximize space while reflecting your personality and lifestyle.",
         icon: Sofa,
     },
+    // Until this / here
     {
         id: 3,
         title: "Space Optimization & Styling",

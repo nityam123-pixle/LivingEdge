@@ -15,7 +15,7 @@ export default function CatalogueSection() {
       category: "OFFICE SETUP",
       title: "Clean and proffessional office",
       image: "/eneraDesign/en_1.jpg",
-      description: "Modern kitchen space designed for functionality and elegance.",
+      description: "A well-designed office speaks volumes about your brand.",
     },
     {
       id: "03",
@@ -46,13 +46,20 @@ export default function CatalogueSection() {
               className="bg-white dark:bg-neutral-800 rounded-xl overflow-hidden shadow hover:shadow-xl transition-shadow duration-300 group"
             >
               <div className="relative w-full h-64">
+                <a
+                href="/projects"
+                className="inline-flex items-center text-primary hover:underline font-medium group"
+                >
                 <Image
                   src={item.image}
                   alt={item.title}
                   layout="fill"
                   objectFit="cover"
                   className="transition-transform duration-500 group-hover:scale-105"
+                  asChild
                 />
+                </a>
+
               </div>
 
               <div className="p-6 space-y-4">
