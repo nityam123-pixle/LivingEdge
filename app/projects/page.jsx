@@ -29,13 +29,15 @@ export default function Page() {
                 {projects.map((project) => (
                     <div key={project.id} className="group">
                         <div className="overflow-hidden rounded-xl">
-                            <Image
-                                src={project.image}
-                                width={480}
-                                height={380}
-                                alt={project.name}
-                                className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
-                            />
+                            <Link href={`/projects/${project.id}`} passHref>
+                                <Image
+                                    src={project.image}
+                                    width={480}
+                                    height={380}
+                                    alt={project.name}
+                                    className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                                />
+                            </Link>
                         </div>
                         <div className="mt-6 flex flex-col items-start">
                             <h2 className="text-2xl font-semibold mb-4">{project.name}</h2>

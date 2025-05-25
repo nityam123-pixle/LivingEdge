@@ -3,7 +3,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { titleVariants, desVariants, tagVariants } from '@/utils/animation';
+import { titleVariants, desVariants } from '@/utils/animation';
 
 const Page = () => {
   const ref = useRef(null);

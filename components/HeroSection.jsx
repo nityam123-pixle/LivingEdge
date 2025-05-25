@@ -25,10 +25,11 @@ const HeroSection = () => {
 
                 <motion.h1
                     initial="offscreen"
-                    whileInView={"onscreen"}
+                    whileInView="onscreen"
                     variants={desVariants}
-                    className="h1">
-                    Homes are beautiful and good decor makes it more so.
+                    className="h1 font-serif bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 bg-clip-text text-transparent leading-snug tracking-tight text-center"
+                >
+                    Follow The Next Wait For The Next <br /> - Living Edge
                 </motion.h1>
 
                 <motion.p

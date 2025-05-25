@@ -15,11 +15,11 @@ const services = [
     },
     // Need to change this.
     {
-        id: 2,
-        title: "Creative Furniture Design",
-        description: "We create custom furniture that blends aesthetics with comfort. Our designs maximize space while reflecting your personality and lifestyle.",
-        icon: Sofa,
-    },
+    id: 2,
+    title: "2D & 3D Interior Designing",
+    description: "We craft immersive 2D and 3D interior designs that bring your vision to life. Experience realistic layouts, textures, and lighting before execution.",
+    icon: Sofa,
+},
     // Until this / here
     {
         id: 3,
