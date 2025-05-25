@@ -29,7 +29,7 @@ const HeroSection = () => {
                     variants={desVariants}
                     className="h1 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 bg-clip-text text-transparent leading-snug tracking-tight text-center"
                 >
-                    Follow The Next Wait For The Next <br /> <span className="font-bold text-6xl bg-gradient-to-r from-[#4F3F63] via-[#F0966A] to-[#FCC797] bg-clip-text text-transparent">- Living Edge </span>
+                    Follow The Next Wait For The Next
                 </motion.h1>
 
                 <motion.p
